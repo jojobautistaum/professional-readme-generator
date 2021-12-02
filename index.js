@@ -1,6 +1,7 @@
 // TODO: Include packages needed for this application
-import fs from 'fs';
-import inquirer from 'inquirer';
+const fs = require('fs');
+const inquirer = require('inquirer');
+const generateMarkdown = require('./utils/generateMarkdown');
 
 // TODO: Create an array of questions for user input
 const questions = ["What is your GitHub username? ", 
@@ -13,9 +14,60 @@ const questions = ["What is your GitHub username? ",
                    "What does the user need to know about using the repo? ",
                    "What does the user need to know about contributing to the repo? "];
 
+const promptUser = () => {
+    return inquirer.prompt([
+        {
+            type: 'input',
+            name: 'username',
+            message: questions[0]
+        },
+        {
+            type: 'input',
+            name: 'email',
+            message: questions[1]
+        },
+        {
+            type: 'input',
+            name: 'project',
+            message: questions[2]
+        },
+        {
+            type: 'input',
+            name: 'description',
+            message: questions[3]
+        },
+        {
+            type: 'list',
+            name: 'license',
+            message: questions[4],
+            choices: ['MIT', 'APACHE 2.0', 'GPL 3.0', 'BSD 3', 'None']
+        },
+        {
+            type: 'input',
+            name: 'dependencies',
+            message: questions[5]
+        },
+        {
+            type: 'input',
+            name: 'test',
+            message: questions[6]
+        },
+        {
+            type: 'input',
+            name: 'usage',
+            message: questions[7]
+        },
+        {
+            type: 'input',
+            name: 'contributing',
+            message: questions[8]
+        },
+    ]);
+};
+
 // TODO: Create a function to write README file
 function writeToFile(fileName, data) {
-    FileSystem.writeFile(`./${fileName}`, data, err => {
+    fs.writeFile(`./${fileName}`, data, err => {
         if (err) {
             console.log(err);
             return
@@ -25,7 +77,10 @@ function writeToFile(fileName, data) {
 }
 
 // TODO: Create a function to initialize app
-function init() {}
+function init() {
+    promptUser()
+        .then(answers => writeToFile("generated-README.md", generateMarkdown(answers)));
+}
 
 // Function call to initialize app
 init();

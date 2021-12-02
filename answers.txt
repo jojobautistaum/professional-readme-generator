@@ -1,0 +1,9 @@
+jojobautistaum
+gjojob@yahoo.com
+Professional README Generator
+This is my first node.js project
+MIT
+npm install inquirer
+node test
+watch the video
+Please email me for suggestion or fix the bug
