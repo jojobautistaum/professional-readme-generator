@@ -1,4 +1,4 @@
-// TODO: Create a function that returns a license badge based on which license is passed in
+// It returns a license badge based on which license is passed in
 // If there is no license, return an empty string
 function renderLicenseBadge(license) {
   switch(license) {
@@ -11,7 +11,7 @@ function renderLicenseBadge(license) {
   
 }
 
-// TODO: Create a function that returns the license link
+// It returns the license link based on license type
 // If there is no license, return an empty string
 function renderLicenseLink(license) {
   const licenseBadge = renderLicenseBadge(license);
@@ -24,7 +24,7 @@ function renderLicenseLink(license) {
   }
 }
 
-// TODO: Create a function that returns the license section of README
+// It returns the license section of README
 // If there is no license, return an empty string
 function renderLicenseSection(license) {
   if (license !== "None"){
@@ -33,7 +33,7 @@ function renderLicenseSection(license) {
   return "";
 }
 
-// TODO: Create a function to generate markdown for README
+// Let us generate markdown for README
 function generateMarkdown(data) {
   return `
   # ${data.project}
@@ -50,25 +50,28 @@ function generateMarkdown(data) {
   * [Tests](#tests)
   * [Questions](#questions)
 
-  ## Installation <a id="installation" />
-  In order to run this app, please install the dependencies:
+  ## Installation <a id="installation"></a>
+  In order to run this app, please install the following dependency(ies):
   ${data.dependencies}
 
-  ## Usage <a id="usage" />
+  ## Usage <a id="usage"></a>
   ${data.usage}
 
-  ## License <a id="license" />
+  ## License <a id="license"></a>
   ${renderLicenseSection(data.license)}
 
-  ## Contributing <a id="contributing" />
+  ## Contributing <a id="contributing"></a>
   ${data.contributing}
 
-  ## Tests <a id="tests" />
+  ## Tests <a id="tests"></a>
   ${data.test}
 
-  ## Questions <a id="questions" />
+  ## Questions <a id="questions"></a>
   For questions about this app, please email me at ${data.email}.
-  Thank you for visiting my repo.
+  
+  Thank you for using my app.
+
+  You may check my other repos at https://github.com/${data.username}?tab=repositories
 `;
 }
 

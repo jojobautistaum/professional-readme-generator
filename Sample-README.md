@@ -1,9 +1,9 @@
 
-  # README Generator
-  [![License](https://img.shields.io/badge/License-APACHE_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+  # Professional README Generator
+  [![License](https://img.shields.io/badge/License-MIT-brightgreen.svg)](https://opensource.org/licenses/MIT)
 
   ## Description
-  Generate README 
+  This app will generate a professional README file for a new project so that Developer can devote more time working on the project. 
 
   ## Table of Contents
   * [Installation](#installation) 
@@ -18,13 +18,13 @@
   npm install inquirer
 
   ## Usage <a id="usage"></a>
-  Watch the video
+  Watch the video on how to use this app
 
   ## License <a id="license"></a>
-  This project is licensed under the APACHE 2.0 license
+  This project is licensed under the MIT license
 
   ## Contributing <a id="contributing"></a>
-  fix bugs
+  Make suggestion or fix the bugs
 
   ## Tests <a id="tests"></a>
   node test
