@@ -71,7 +71,7 @@ function generateMarkdown(data) {
   
   Thank you for using my app.
 
-  You may check my other repos at https://github.com/${data.username}?tab=repositories
+  For further question, please reachout to me in my GitHub profile: https://github.com/${data.username}
 `;
 }
 
