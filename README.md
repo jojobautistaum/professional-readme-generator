@@ -17,7 +17,15 @@
   **node install inquirer**
 
   ## Usage <a id="usage"></a>
-  Watch the video
+  ### 1.  Watch the video: 
+  ![How to Use this App?](./Usage_Demo.mp4)
+
+  ### 2.  Sample User Input: 
+  ![User Input](./media/User_Input.jpg)
+
+  ### 3.  Preview of the Generated README file: 
+  ![README Preview](./media/README_Preview.jpg)
+
 
   ## Tech/Framework
   * Node.js
@@ -29,7 +37,7 @@
   This project is licensed under the MIT license
 
   ## Contributing <a id="contributing"></a>
-  Please contribute by fixing the issue.
+  Please contribute by fixing an issue.
 
   ## Questions <a id="questions"></a>
   For questions about this app, please email me at gjojob@yahoo.com.
