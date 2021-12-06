@@ -18,7 +18,7 @@
 
   ## Usage <a id="usage"></a>
   ### 1.  Watch the video: 
-  ![How to Use this App?](./media/Usage_Demo.mp4)
+  ![How to Use this App?](https://drive.google.com/file/d/1lNE0330-piPDaTlpdRKaJWL4dalCnxTP/view?usp=sharing)
 
   ### 2.  Sample User Input: 
   ![User Input](./media/User_Input.jpg)
