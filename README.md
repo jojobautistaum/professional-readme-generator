@@ -1,37 +1,39 @@
 
-  # README Generator
-  [![License](https://img.shields.io/badge/License-APACHE_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+  # Professional README Generator
+  [![License](https://img.shields.io/badge/License-MIT-brightgreen.svg)](https://opensource.org/licenses/MIT)
 
   ## Description
-  Generate README 
+  This is a command-line application that dynamically generates a professional README file from a user's input using the Inquirer. It will create a **generated-README.md** file that can be copied and renamed into **README.md** in your Repository.
 
   ## Table of Contents
   * [Installation](#installation) 
   * [Usage](#usage) 
   * [License](#license)
   * [Contributing](#contributing) 
-  * [Tests](#tests)
   * [Questions](#questions)
 
   ## Installation <a id="installation"></a>
-  In order to run this app, please install the following dependency(ies):
-  npm install inquirer
+  In order to run this app, please install the following dependency: <br />
+  **node install inquirer**
 
   ## Usage <a id="usage"></a>
   Watch the video
 
+  ## Tech/Framework
+  * Node.js
+  * Inquirer
+  * File System
+  * Screencastify
+
   ## License <a id="license"></a>
-  This project is licensed under the APACHE 2.0 license
+  This project is licensed under the MIT license
 
   ## Contributing <a id="contributing"></a>
-  fix bugs
-
-  ## Tests <a id="tests"></a>
-  node test
+  Please contribute by fixing the issue.
 
   ## Questions <a id="questions"></a>
   For questions about this app, please email me at gjojob@yahoo.com.
   
   Thank you for using my app.
 
-  You may check my other repos at https://github.com/jojobautistaum?tab=repositories
+  For further question, please reachout to me in my GitHub profile: https://github.com/jojobautistaum

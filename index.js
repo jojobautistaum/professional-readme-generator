@@ -22,7 +22,7 @@ function writeToFile(fileName, data) {
     fs.writeFile(`./${fileName}`, data, err => {
         if (err) {
             console.log(err);
-            return
+            return;
         }
         console.log("Your README file was successfully generated with a filename: " + fileName);
         console.log(`You may copy "${fileName}" into your repo and rename it into "README.md"`);
