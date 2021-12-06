@@ -17,15 +17,17 @@
   **node install inquirer**
 
   ## Usage <a id="usage"></a> 
-  ### Watch the video: 
-  <br />![How to Use this App?](https://user-images.githubusercontent.com/90885263/144780497-c3f3e322-8a30-4200-bab9-a566bbd3b1a9.mp4)
+  ### How to use the App
+  ![How to Use this App?](https://user-images.githubusercontent.com/90885263/144780497-c3f3e322-8a30-4200-bab9-a566bbd3b1a9.mp4)
 
-  ### Sample User Input: 
+  ### Disect Generated README based on User Input
+  ![Disect README](https://user-images.githubusercontent.com/90885263/144787315-d3c869f2-9581-4b27-b342-5a31c6fec783.mp4)
+
+  ### Sample User Input 
   ![User Input](./media/User_Input.jpg)
 
-  ### Preview of the Generated README file: 
+  ### Preview of the Generated README file
   ![README Preview](./media/README_Preview.jpg)
-
 
   ## Tech/Framework
   * Node.js
