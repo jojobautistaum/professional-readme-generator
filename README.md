@@ -16,14 +16,14 @@
   In order to run this app, please install the following dependency: <br />
   **node install inquirer**
 
-  ## Usage <a id="usage"></a> <br />
-  ### 1.  Watch the video: <br />
-  ![How to Use this App?](https://user-images.githubusercontent.com/90885263/144780497-c3f3e322-8a30-4200-bab9-a566bbd3b1a9.mp4)
+  ## Usage <a id="usage"></a> 
+  ### Watch the video: 
+  <br />![How to Use this App?](https://user-images.githubusercontent.com/90885263/144780497-c3f3e322-8a30-4200-bab9-a566bbd3b1a9.mp4)
 
-  ### 2.  Sample User Input: 
+  ### Sample User Input: 
   ![User Input](./media/User_Input.jpg)
 
-  ### 3.  Preview of the Generated README file: 
+  ### Preview of the Generated README file: 
   ![README Preview](./media/README_Preview.jpg)
 
 
