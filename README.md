@@ -18,7 +18,7 @@
 
   ## Usage <a id="usage"></a>
   ### 1.  Watch the video: 
-  ![How to Use this App?](./Usage_Demo.mp4)
+  ![How to Use this App?](./media/Usage_Demo.mp4)
 
   ### 2.  Sample User Input: 
   ![User Input](./media/User_Input.jpg)
